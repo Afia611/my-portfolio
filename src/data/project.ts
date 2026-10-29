@@ -31,7 +31,7 @@ export const projects = [
       "DaisyUI",
     ],
     github: "https://github.com/Afia611/fit-log",
-    live: "",
+    live: "https://fit-log-nu-three.vercel.app",
     image: "/projects/fit-log.png",
     challenges:
       "Managing workout selections and keeping the interface responsive.",
@@ -51,7 +51,7 @@ export const projects = [
       "Tailwind CSS",
     ],
     github: "https://github.com/Afia611/bazar-dor",
-    live: "",
+    live: "https://bazar-dor-coral-omega.vercel.app",
     image: "/projects/bazar-dor.png",
     challenges:
       "Integrating external product APIs, authentication, and protected routes.",
