@@ -191,13 +191,9 @@ export default function Home() {
             />
 
             <img
-              src="/profile.jpg"
+              src="/profile.png"
               alt="Afia Zahin - Frontend Developer"
-              className="relative z-10 h-full w-full object-cover"
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
+              className="relative z-10 h-full w-full object-cover object-center"/>
           </div>
         </section>
 
@@ -398,14 +394,6 @@ export default function Home() {
             >
               <Mail className="shrink-0 text-cyan-400" />
               afia.zahin06@gmail.com
-            </a>
-
-            <a
-              href="tel:+8801682824463"
-              className="flex items-center gap-3 hover:text-cyan-400"
-            >
-              <Phone className="text-cyan-400" />
-              +8801682824463
             </a>
 
             <a
