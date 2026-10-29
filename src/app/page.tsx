@@ -362,6 +362,8 @@ export default function Home() {
 
                     
 <div className="flex flex-col gap-3">
+  
+<div className="flex flex-col gap-3">
   <Link
     href={`/projects/${project.slug}`}
     className="btn w-full border-0 bg-cyan-400 text-slate-950 hover:bg-cyan-300"
@@ -369,6 +371,20 @@ export default function Home() {
     View Details
     <ArrowRight size={16} />
   </Link>
+
+  {project.live && (
+    <a
+      href={project.live}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn w-full border border-cyan-400 bg-transparent text-cyan-400 hover:bg-cyan-400 hover:text-slate-950"
+    >
+      <ExternalLink size={16} />
+      Live Website
+    </a>
+  )}
+</div>
+
 
   {project.live && (
     <a
