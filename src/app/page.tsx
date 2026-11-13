@@ -30,6 +30,7 @@ const navigation = [
   { name: "Contact", href: "#contact" },
 ];
 
+
 const skills = [
   "HTML5",
   "CSS3",
@@ -38,16 +39,20 @@ const skills = [
   "React",
   "Next.js",
   "Node.js",
+  "Express.js",
   "Tailwind CSS",
   "DaisyUI",
+  "shadcn/ui",
   "Context API",
   "REST API",
   "MongoDB",
   "Better Auth",
+  "JWT",
   "Git",
   "GitHub",
   "Responsive Design",
 ];
+
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -139,7 +144,7 @@ export default function Home() {
             </Link>
 
             <a
-              href="/resume.pdf"
+              href="/Afia_Zahin_Resume.pdf"
               download="Afia_Zahin_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-lg border border-cyan-400 px-6 py-3 font-semibold text-cyan-400 transition hover:bg-cyan-400 hover:text-slate-950"
             >
