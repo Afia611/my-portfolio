@@ -1,4 +1,4 @@
-
+﻿
 
 import Image from "next/image";
 import Link from "next/link";
@@ -7,11 +7,11 @@ import {
   ArrowLeft,
   ArrowUpRight,
   Code2,
-  Github,
   Lightbulb,
   Rocket,
 } from "lucide-react";
 
+import { FaGithub } from "react-icons/fa";
 import { projects } from "@/data/projects";
 
 type ProjectPageProps = {
@@ -136,7 +136,7 @@ export default async function ProjectDetailsPage({
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-600 px-6 py-3 font-semibold text-slate-200 transition hover:border-cyan-400 hover:text-cyan-400"
             >
-              <Github size={19} />
+              <FaGithub size={19} />
               GitHub Repository
             </a>
           )}
@@ -217,9 +217,11 @@ export default async function ProjectDetailsPage({
 
       {/* FOOTER */}
       <footer className="border-t border-slate-800 px-5 py-7 text-center text-sm text-slate-400">
-        © {new Date().getFullYear()} Afia Zahin.
+        Â© {new Date().getFullYear()} Afia Zahin.
         All rights reserved.
       </footer>
     </main>
   );
 }
+
+
